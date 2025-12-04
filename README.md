@@ -27,4 +27,4 @@ Este projeto serve como meu cartão de visitas digital e laboratório de desenvo
 Este projeto está sob a licença MIT. Sinta-se à vontade para estudar o código.
 
 ---
-Feito com ☕ por **Saulo Catunda**.
+Feito por **Saulo Catunda**.

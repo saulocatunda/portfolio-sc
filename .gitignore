@@ -4,22 +4,22 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Logs e Bancos de erro
+# Logs and BD
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Editor de Código (Suas preferências pessoais não devem ir pro servidor)
+# Pref
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Dependências (Caso use Node.js no futuro)
+
 node_modules/
 dist/
 build/
 
-# O próprio arquivo de configuração do Git (Opcional, mas seguro)
+# Security
 .env

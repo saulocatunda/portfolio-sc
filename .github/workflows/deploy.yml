@@ -19,7 +19,10 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: / # Como criamos o usuário FTP preso na pasta certa, aqui é só /
+        server-dir: /
+        protocol: ftp           # <--- ADICIONE ISSO (Força o protocolo padrão)
+        port: 21                # <--- ADICIONE ISSO (Garante a porta correta)
+        security: loose         # <--- O PULO DO GATO (Relaxa a verificação de SSL)
         exclude: |
           **/.git*
           **/.github*
